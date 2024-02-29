@@ -2,9 +2,9 @@ import json
 import hashlib
 from cryptography.fernet import Fernet
 from cryptography.fernet import InvalidToken
-import os 
+import os
 
-next_id = 1 
+next_id = 1
 clave_maestra_file = 'clave_maestra.key'
 
 def obtener_datos_registro():
